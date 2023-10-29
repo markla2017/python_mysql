@@ -2,8 +2,9 @@ import mysql.connector
 
 config = {
     'user': 'root',
-    'password': '121212aa',
-    'host': 'localhost'
+    'password': 'my-secret-pw',
+    'host': '192.168.56.105',   
+    'database': 'acme' 
 }
 
 db = mysql.connector.connect(**config)
